@@ -2,7 +2,7 @@
 
 I found [The Pudding](https://github.com/the-pudding/banknotes)'s dataset on banknotes on Data is plural and thought it would be interesting to analyze the gender distribution on banknotes. 
 
-You can read my piece [here](https://somaiyahhafeez.github.io/banknotes/)
+You can read my piece [here.](https://somaiyahhafeez.github.io/banknotes/)
 
 ## Project Overview
 
