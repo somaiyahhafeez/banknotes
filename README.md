@@ -2,6 +2,8 @@
 
 I found [The Pudding](https://github.com/the-pudding/banknotes)'s dataset on banknotes on Data is plural and thought it would be interesting to analyze the gender distribution on banknotes. 
 
+You can read my piece <a href="https://somaiyahhafeez.github.io/banknotes/"> here </a>: 
+
 ## Project Overview
 
 Soon I realized that the dataset only contains 38 countries so I set out to create a bigger dataset but failed and ultimately did the project using The Pudding's data. 
