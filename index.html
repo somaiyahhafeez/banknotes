@@ -7,47 +7,143 @@
     <title>Cash Gap: more men than women on banknotes</title>
 
     <!-- Adobe Fonts -->
-    <link rel="stylesheet" href="https://use.typekit.net/your-kit-id.css">
+        <link rel="stylesheet" href="https://use.typekit.net/your-kit-id.css">
     <style>
-        body {
+            body {
             margin: 0;
-            font-size: 20px;
-            font-family: 'Avenir', sans-serif !important;
-            text-rendering: optimizeLegibility;
-            line-height: 1.6; /* Added for consistent line spacing */
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.8;
+        }
+            .container {
+            display: flex;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4em 1.5em;
+            gap: 2em; 
+            align-items: center;
+            justify-content: space-between; 
         }
 
-        .banner {
-            background: url('https://i.imgur.com/yqeSxbS.png') no-repeat center center;
-            background-size: cover;
-            height: 400px;
+
+        h1, h2 {
+            color: #222;
+        }
+        .byline {
+            font-size: 1.1em;
+            color: #666;
+        }
+        .header-image img {
             width: 100%;
+            height: auto;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2em 0;
+            background: #222;
+            color: #fff;
+            margin-top: 2em;
+        }
+        .footer a {
+            color: #f5f5f5;
+        }
+        
+
+
+        .header-text {
+            max-width: 55%;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            line-height: 1.2;
+            margin-bottom: 0.3em;
+        }
+
+        .byline {
+            font-size: 1.2em;
+            color: #000000;
+            margin-bottom: 1em;
+        }
+
+        .header-image img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
         }
 
         .content {
-            max-width: 800px; 
-            margin: 0 auto; 
-            padding: 0 1.5em; 
+            max-width: 900px;
+            margin: auto;
+            padding: 2em 1.5em;
         }
 
-        .header {
-            padding: 3em 0;
-            text-align: center; 
+
+        .map-section {
+            text-align: left;
+            margin: 2em 0;
+        }
+
+        .map-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 1em;
+            flex-wrap: wrap;
+        }
+
+        .map {
+            width: 100%;
+            max-width: 48%;
+            overflow: hidden;
+        }
+
+        .map iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header-text, .header-image {
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .map-container {
+                flex-direction: column;
+            }
+
+            .map {
+                max-width: 100%;
+            }
+
+            .map iframe {
+                height: 400px;
+            }
         }
 
         a {
             color: #000000;
         }
-
-        .footer {
-            background: #f4f4f4;
-            text-align: center;
-            font-size: 0.8em;
-            margin-top: 4em;
-            padding: 4em 0;
+            .banner {
+            background: url('https://i.imgur.com/yqeSxbS.png') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            width: 100%;
         }
-
-        figure {
+                figure {
             margin: 0;
             padding-bottom: 1.2em;
         }
@@ -57,61 +153,6 @@
             text-align: center;
             margin-top: 0.5em;
             color: #666;
-        }
-
-        h1 {
-            font-weight: bold;
-            font-size: 3em;
-            line-height: 1.1;
-            text-align: center; 
-        }
-
-        .subhead {
-            font-family: 'Avenir', sans-serif !important;
-            text-align: center; 
-        }
-
-        iframe,
-        img,
-        video {
-            max-width: 100%;
-        }
-
-        p {
-            line-height: 1.6;
-            margin: 0;
-            padding-bottom: 1.2em;
-        }
-
-        ul {
-            margin: 0;
-            padding-bottom: 1em;
-            line-height: 1.6;
-        }
-
-        iframe {
-            padding-bottom: 1.2em;
-        }
-
-        code {
-            font-family: 'Courier New', monospace;
-            background: #fffbaf;
-            font-size: 0.85em;
-        }
-
-        .full-width figure {
-            text-align: center;
-        }
-
-        @media (max-width: 640px) {
-            body {
-                font-size: 18px;
-            }
-
-            .content {
-                padding-left: 0.5em;
-                padding-right: 0.5em;
-            }
         }
     </style>
 </head>
